@@ -25,7 +25,7 @@ directory.
 Usage
 -----
 
-Plugin is automatically applied for files with `.todo.md` extension.
+Plugin is automatically applied for files named `TODO`.
 
 ##### TODO Items
 
