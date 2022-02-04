@@ -20,7 +20,8 @@ CONTENTS                                                  *VimTodoListsContents*
 vim-todo-lists plugin is intended for TODO lists management.
 
 Current version contains only key bindings that simplify the navigation
-between TODO list (should be named 'TODO') items, creation and update.
+between TODO list (should have '-branchbench.md' extension) items, creation and
+update.
 
 ==============================================================================
 2. Installation                                       *VimTodoListsInstallation*
@@ -42,7 +43,7 @@ directory.
 ==============================================================================
 3. Usage                                                     *VimTodoListsUsage*
 
-Plugin is automatically applied for files named `TODO`.
+Plugin is automatically applied for files with `-branchbench.md` extension.
 
 TODO Items
 ----------

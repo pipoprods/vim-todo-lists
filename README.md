@@ -25,7 +25,7 @@ directory.
 Usage
 -----
 
-Plugin is automatically applied for files named `TODO`.
+Plugin is automatically applied for files with `-branchbench.md` extension.
 
 ##### TODO Items
 

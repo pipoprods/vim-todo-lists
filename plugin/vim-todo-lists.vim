@@ -509,7 +509,7 @@ if !exists('g:vimtodolists_plugin')
   "Defining auto commands
   augroup vimtodolists_auto_commands
     autocmd!
-    autocmd BufRead,BufNewFile TODO call VimTodoListsInit()
+    autocmd BufRead,BufNewFile *-branchbench.md call VimTodoListsInit()
     " Modified to call post init, as the filetype is already todo.
     " This avoids an infinite loop.
     autocmd FileType todo call VimTodoListsPostInit()
